@@ -1,0 +1,35 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:Helvetica, Arial, Verdana;
+}
+
+h1 {
+	color:#888;
+}
+
+p {
+	color:#666;
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+	padding:20px;
+}
+
+/* js styles */
+
+.green {
+	color:green;
+	background:lime;
+	padding:5px;
+	border:1px solid green;
+}
+
+.red {
+	color:red;
+	background:pink;
+	padding:5px;
+	border:1px solid red;
+}
