@@ -4,16 +4,38 @@
 //randomize the number of words in sentences, and sentences in paragraphs
 
 //document ready is a safety precaution that makes sure all of the HTML document has loaded before we try to add behavior.
+$(document).ready(function(){
 
+//start event listener for click
+$("#ipsum-form").submit(function() { 
+  var paragraphs = '';
+
+//Determine which of the check boxes is checked 
+  var chosen_button = $("#ipsum-form input[name='choice']:checked").val();
+  
+//grab the paragraph number the user enters
+  var paragraph_number = $("#paragraph_count").val();
+
+//define var as an empty array
+  var words = [];
 
 //Create an array of words to randomize later
-  var words = ["one", "two", "three", "four", "five", "six"];
+  var words_bob = ["Bob", "Reginald T Moneybags", "MC Hammer", "Vanilla Ice", "@wi3thloudhands"];
+  var words_nobob = ["sunac", "rails", "febreze", "feelings friday", "rails", "drilling", "brita", "pizza", "beer", "number 7 subs", "smoothie"];  
+  var words_all = words_bob.concat(words_nobob);
 
-  var words_all = ["one", "two", "three", "four", "five", "six"];
-  var words_bob = ["bob"];
-  var words_nobob = ["red", "white", "blue"];
+//else if determines which array of words to show the user
+  if (chosen_button == "straight-up") {
+   words = words_all;
+} else if (chosen_button == "all-bob") {
+   words = words_bob; 
+} else {
+words = words_nobob; }
 
-  var sentence_number = Math.floor( (Math.random()+4) * 2 );
+
+console.log(words);
+
+var sentence_number = Math.floor( (Math.random()+4) * 2 );
 
 //Use a function that randomizes the contents of an array
   function fisherYates(words) {
@@ -29,25 +51,15 @@
        return words;
     }
 
-//start event listener for click
-$("#ipsum-form").submit(function() { 
-  var paragraphs = '';
-
-//grab the paragraph number the user enters
-  var paragraph_number = $("#paragraph_count").val();
-
 //start the first FOR loop that builds sentences from words
 for ( var z = 0; z < paragraph_number; z++ ) {
   var sentence_group = '';
-  console.log(sentence_number);
 
 //start the second FOR loop that builds sentence groups from sentences
 for ( var y = 0; y < sentence_number; y++ ) {
-    console.log(sentence_number);
 
 //start the third FOR loop that builds and spaces paragraphs from sentence groups
 for ( var x = 0; x < words.length; x++ ) {
-    console.log(sentence_number);
 
 //Create a variable for the randomized array of words
   var words_random = fisherYates(words);
@@ -75,10 +87,13 @@ $("#print-paragraphs").empty().html(paragraphs);
 return false; 
 
 //end event listener
+  });
+
+//end document ready
 });
 
-
-// "Sunac", "Febreze", "feelings friday", "uge", "rails", "helicopter", "drilling", "Reginald T Moneybags" brita MVC pizza and beer jquery number 7 subs FaF github smoothie hammering curb your flombaum minswan knocking meta ramen granola bars
+// var words_bob = ["Bob", "helicopter", "Reginald T Moneybags", "I don't care", "Kill Your Idols", "MC Hammer", "Vanilla Ice"];
+// var words_nobob = ["sunac", "rails", "febreze", "feelings friday", "uge", "rails", "drilling", "brita", "pizza", "beer", "number 7 subs", "smoothie"];  
 
 // for the data:
 // create an array of words 
