@@ -1,35 +1,106 @@
-body {
-	margin:0;
-	padding:0;
-	font-family:Helvetica, Arial, Verdana;
+/*Reset brower specfic CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+p { margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Start Map CSS*/
+body{
+background-color:#333333;
+color:#ffffff;
+font-size: 1em;
+line-height: 1.5em;
+font-weight:300px;
+font-family: 'Quattrocento Sans', sans-serif;
+margin: 0 auto;
+width: 750px;
+}
+
+header {
+  margin-top: 1em;
 }
 
 h1 {
-	color:#888;
+font-size: 2em;
+margin-bottom: .5em;
+line-height: 1em;
+font-weight: bold;
+padding-right: 3px;
+/*text-shadow: 1px 1px 1px #555;*/
 }
 
-p {
-	color:#666;
+h2 {
+font-size: 1em;
+line-height: 1.5em;
+margin-bottom: 1em;
 }
 
-#wrapper {
-	width:960px;
-	margin:0 auto;
-	padding:20px;
+#print-paragraphs {
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
-/* js styles */
 
-.green {
-	color:green;
-	background:lime;
-	padding:5px;
-	border:1px solid green;
+
+strong {
+  font-weight: bold;
+  color: #C43512;
 }
 
-.red {
-	color:red;
-	background:pink;
-	padding:5px;
-	border:1px solid red;
+
+#submit {
+    background-color: #C43512;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: #F2F2F2;
+    font-size: 1em;
+    margin-top: 1em;
+    padding: 2px;
+    width: 75px;
 }
+
+
+
+

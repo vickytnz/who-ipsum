@@ -11,25 +11,25 @@
 	
 <body>
 
+<img src = "fi.png" style = "border-bottom: 1px white solid;">
 
-
-<p>Give Flatiron Ipsum a try…</p>
+<p>How much nonsense would you like?</p>
 
 		<form id="ipsum-form" action="#" method="post">
-			Paragraphs:<input id="paragraph_count" style="width: 40px;" type="text" maxlength="2" />
+			Paragraphs: <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" /><br>
 			Type:
 
 						<!-- default choice on load -->
 						<input id="default" type="radio" name="choice" value="default" style="display:none" />
 						<!-- straight up -->
-						<input id="straight-up" type="radio" name="choice" value="straight-up" />
+						<input id="straight-up" type="radio" name="choice" value="straight-up" checked />
 						<label for="straight-up">Straight Up</label> 
 						<!-- all bob -->
 						<input id="all-bob" type="radio" name="choice" value="all-bob" />
 						<label for="all-bob">All Bob</label> 
 						<!-- no bob -->
 						<input id="no-bob" type="radio" name="choice" value="no-bob" />
-						<label for="no-bob">No Bob</label>
+						<label for="no-bob">No Bob</label><br>
 						<!-- submit button -->
 						<input type="submit" id="submit" value="Submit" />
 		</form>
