@@ -55,7 +55,7 @@ line-height: 1.5em;
 font-weight:300px;
 font-family: 'Quattrocento Sans', sans-serif;
 margin: 0 auto;
-width: 750px;
+max-width: 900px;
 }
 
 header {
