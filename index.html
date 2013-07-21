@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Flatiron Ipsum</title>
+	<title>Who-ipsum</title>
 	<link rel="stylesheet" href="css/style.css">
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -11,13 +11,11 @@
 	
 <body>
 
-<img src = "fi.png" style = "border-bottom: 1px white solid;">
-
-<p>How much Who-ipsum do you want?</p>
+<h1>How much Who-ipsum do you want?</h1>
 
 		<form id="ipsum-form" action="#" method="post">
 			Paragraphs: <input id="paragraph_count" style="width: 25px;" type="text"  value="3" maxlength="2" /><br>
-			Doctor: <br/>
+			<strong>Doctor?</strong> <br/>
 
 						<!-- default choice on load -->
 						<input id="default" type="radio" name="choice" value="default" style="display:none" />
@@ -25,44 +23,43 @@
 					
 						<!-- First Doctor -->
 						<input id="first-doctor" type="radio" name="choice" value="first-doctor" checked/>
-						<label for="first-doctor">First</label>
+						<label class="doctors" for="first-doctor">First</label>
 						<!-- second Doctor -->
 						<input id="second-doctor" type="radio" name="choice" value="second-doctor" />
-						<label for="second-doctor">Second</label>
+						<label class="doctors" for="second-doctor">Second</label>
 						<!-- third Doctor -->
 						<input id="third-doctor" type="radio" name="choice" value="third-doctor" />
-						<label for="third-doctor">Third</label>
+						<label class="doctors" for="third-doctor">Third</label>
 						<!-- fourth Doctor -->
 						<input id="fourth-doctor" type="radio" name="choice" value="fourth-doctor" />
-						<label for="fourth-doctor">Fourth</label>
+						<label class="doctors" for="fourth-doctor">Fourth</label>
 						<!-- fifth Doctor -->
 						<input id="fifth-doctor" type="radio" name="choice" value="fifth-doctor" />
-						<label for="fifth-doctor">Fifth</label>
+						<label class="doctors" for="fifth-doctor">Fifth</label>
 						<!-- sixth Doctor -->
 						<input id="sixth-doctor" type="radio" name="choice" value="sixth-doctor" />
-						<label for="sixth-doctor">Sixth</label>
+						<label class="doctors" for="sixth-doctor">Sixth</label>
 						<!-- seventh Doctor -->
 						<input id="seventh-doctor" type="radio" name="choice" value="seventh-doctor" />
-						<label for="seventh-doctor">Seventh</label>
+						<label class="doctors" for="seventh-doctor">Seventh</label>
 						<!-- eighth Doctor -->
 						<input id="eighth-doctor" type="radio" name="choice" value="eighth-doctor" />
-						<label for="eighth-doctor">Eighth</label>
+						<label class="doctors" for="eighth-doctor">Eighth</label>
 						<!-- ninth Doctor -->
 						<input id="ninth-doctor" type="radio" name="choice" value="ninth-doctor" />
-						<label for="ninth-doctor">Ninth</label>
+						<label class="doctors" for="ninth-doctor">Ninth</label>
 						<!-- tenth Doctor -->
 						<input id="tenth-doctor" type="radio" name="choice" value="tenth-doctor" />
-						<label for="tenth-doctor">Tenth</label>
+						<label class="doctors" for="tenth-doctor">Tenth</label>
 						<!-- eleventh Doctor -->
 						<input id="eleventh-doctor" type="radio" name="choice" value="eleventh-doctor" />
-						<label for="eleventh-doctor">Eleventh</label>
+						<label class="doctors" for="eleventh-doctor">Eleventh</label>
 						<!-- All the Doctors! -->
 						<input id="all-doctors" type="radio" name="choice" value="all-doctors"  />
-						<label for="all-doctors">Multi-Doctor Timeline!</label> 
+						<label class="doctors" for="all-doctors">Multi-Doctor!</label> 
 						<br>
-
 						<!-- submit button -->
-						<input type="submit" id="submit" value="Submit" />
+						<input type="submit" id="submit" value="Regenerate!" />
 		</form>
 
 		<div id="print-paragraphs"></div>
@@ -70,6 +67,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')</script>
 	<script src="js/ipsum.js"></script>
-
+<p>Doctor images from <a href="http://bogswallop.deviantart.com/art/Allo-Im-the-Doctor-163503578">Bogwallop on Deviantart</a>. TARDIS by <a href="http://browse.deviantart.com/art/TARDIS-374324114">Superficialate</a></p>
 </body>
 </html>
