@@ -17,7 +17,7 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: baseline; 
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -50,17 +50,30 @@ table {
   border-spacing: 0;
 }
 
+
+@font-face {font-family:"Doctor Who";src:url("doctor_who_2010.eot?") format("eot"),url("doctor_who_2010.woff") format("woff"),url("doctor_who_2010.ttf") format("truetype"),url("doctor_who_2010.svg#Doctor-Who-2010") format("svg");font-weight:normal;font-style:normal;}
+
+
 /*Start Map CSS*/
+
+
+
 body{
 background-color: #003b6f;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#040429), to(#0003b6)); /* Chrome, Safari 4+ */
+  background-image: -webkit-linear-gradient(top, #040429, #0003b6); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+  background-image:    -moz-linear-gradient(top, #040429, #0003b6); /* Firefox 3.6-15 */
+  background-image:      -o-linear-gradient(top, #040429, #0003b6); /* Opera 11.10-12.00 */
+  background-image:         linear-gradient(to bottom, #040429, #0003b6); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
 color:#ffffff;
 font-size: 1em;
 line-height: 1.5em;
 font-weight:300px;
-font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Quattrocento Sans', Helvetica, Arial, sans-serif;
 margin: 0 auto;
 max-width: 1040px;
-padding: 0 10px;
+padding:  10px 40px;
 text-align: center;
 }
 
@@ -69,13 +82,24 @@ header {
 }
 
 h1 {
-font-size: 2em;
-margin-bottom: .5em;
-line-height: 1em;
-font-weight: bold;
-padding-right: 3px;
-/*text-shadow: 1px 1px 1px #555;*/
-}
+float: left;
+margin-right: 20px;
+font-family: "Doctor Who", Arial, sans-serif;
+font-size: 6em;
+line-height: 0.5em;
+text-transform: uppercase;
+text-rendering: optimizeLegibility;
+letter-spacing: 2px;
+color: white; /* Non-webkit browsers */
+background-image: -webkit-gradient(
+	linear,
+	left top, left bottom,
+	from(rgba(83, 74, 119, 0.4)),
+	to(rgba(255, 255, 255, 1))
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} 
 
 h2 {
 font-size: 1em;
@@ -84,6 +108,7 @@ margin-bottom: 1em;
 }
 
 #print-paragraphs {
+	text-align: left;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
@@ -97,22 +122,88 @@ strong {
 
 
 #submit {
-    background-color: #C43512;
-    border: medium none;
-    border-radius: 5px 5px 5px 5px;
-    color: #F2F2F2;
-    font-size: 1em;
-    margin-top: 1em;
-    padding: 2px;
-    width: auto;
+text-transform: uppercase;
+background-color: #C43512;
+border: 1px solid white;
+border-radius: 5px 5px 5px 5px;
+color: #F2F2F2;
+font-size: 1em;
+margin-top: 1em;
+padding: 10px;
+width: auto;
 }
+
+form strong {
+
+    font-weight: normal;
+    margin: 0 auto 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+     border-top: 1px solid rgb(83, 74, 119);
+    display: inline-block;
+
+}
+
+.tagline {
+text-align: left;
+min-width: 200px;
+padding-top: 0.3em;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+
+input[type="checkbox"] {
+    position: absolute; 
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(../img/check_radio_sheet.png) -19px top no-repeat;
+}
+
+input[type="radio"] {
+    position: absolute; 
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../img/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(../img/check_radio_sheet.png) -57px top no-repeat;
+}
+
+
 
 label.doctors {
 background: url("../img/Allo_Im_the_Doctor.png") center 20px no-repeat;
 width: 150px;
-height: 200px;
+height: 210px;
 display: inline-block;
-text-align: left;
+text-align: center;
+margin-bottom: 20px;
 }
 
 
@@ -121,11 +212,11 @@ label.doctors[for="second-doctor"] {
 }
 
 label.doctors[for="third-doctor"] {
-	background-position: center 20%;
+	background-position: center 19.5%;
 }
 
 label.doctors[for="fourth-doctor"] {
-	background-position: center 30%;
+	background-position: center 29.6%;
 }
 
 label.doctors[for="fifth-doctor"] {
@@ -158,4 +249,20 @@ label.doctors[for="eleventh-doctor"] {
 
 label.doctors[for="all-doctors"] {
 	background-image: url(../img/TARDIS.png);
+}
+
+footer {
+width: 100%;
+padding-top: 10px;
+border-top: 1px solid rgb(83, 74, 119);
+display: inline-block;
+}
+
+@media screen and (max-width: 794px) {
+ h1, .tagline, #print-paragraphs {
+ float: none;
+ text-align: center;
+
+ 	}
+
 }
