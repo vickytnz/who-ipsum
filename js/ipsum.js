@@ -3,6 +3,12 @@
 $(document).ready(function(){
 
 //Start event listener for click
+
+$('input, select').change(function() {
+	$('#ipsum-form').submit();
+});
+
+
 $("#ipsum-form").submit(function() { 
   var paragraphs = '';
 
