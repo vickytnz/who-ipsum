@@ -348,6 +348,9 @@ return false;
 
 //End jQuery event listener
   });
+  
+ //Hack to show text, need to fully modularise code so that this is dynamic from the start. 
+$("#print-paragraphs").html("<p>Do you want a jelly baby? Don't be sad Grace. You'll do great things. Jamie, remind me to give you a lesson in tying knots, sometime. This thing is smaller on the inside than it is on the outside. Life depends on change and renewal. My ship…my TARDIS… Oh my word! Dreams are important…never underestimate them. I am the Doctor! The original, you might say! Oh I'm so sorry, Jamie. Would you like a jelly baby? Goodbye... Fancypants! I don't like it. Courage isn’t a matter of not being frightened, it’s being afraid and doing what you have to do anyway.</p>");
 
 //End document ready
 });
