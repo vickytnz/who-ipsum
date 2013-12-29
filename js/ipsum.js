@@ -194,7 +194,10 @@ $("#ipsum-form").submit(function() {
 "The universe hangs by such a delicate thread of coincidences that it would be useless to meddle with it, unless like me you're a Time Lord.",
 "Low tech? Grace, this is a type 40 TARDIS, able to take you to any planet in the universe and to any date in that planet's existence. Temporal physics.",
 "Now would you stand aside before I shoot myself?",
-"It was on the planet Skaro that my old enemy the Master was finally put on trial. They say he listened calmly as his list of evil crimes was read... and sentence passed. Then he made his last and I thought somewhat curious request. He demanded that I, the Doctor, a rival Timelord, should take his remains back to our home planet, Gallifrey."
+"It was on the planet Skaro that my old enemy the Master was finally put on trial. They say he listened calmly as his list of evil crimes was read... and sentence passed. Then he made his last and I thought somewhat curious request. He demanded that I, the Doctor, a rival Timelord, should take his remains back to our home planet, Gallifrey.", 
+"I'm a Doctor… though probably not the one that you were expecting",
+"Physician, heal thyself.",
+"Eight minutes is ages. What if I get bored? Give me knitting."
   ];  
   var words_ninth = ["Fantastic!",
 "Do you wanna come with me? 'Cause if you do, then I should warn you — you're gonna see all sorts of things. Ghosts from the past. Aliens from the future. The day the Earth died in a ball of flame. It won't be quiet, it won't be safe, and it won't be calm. But I'll tell you what it will be: The trip of a lifetime!",
@@ -268,7 +271,11 @@ $("#ipsum-form").submit(function() {
 "Brave heart, Clara.",
 "I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport." 
   ];
-  var words_all = words_first.concat(words_second, words_second, words_third, words_fourth, words_fifth, words_sixth, words_seventh, words_eighth, words_ninth, words_tenth, words_eleventh);
+ var words_twelfth = ["No sir. Thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?" ];
+
+var words_war = ["Doctor no more.", "Great men are forged in fire. It is the privilege of lesser men to light the flame. Whatever the cost.", "Oh, for God's sake! Gallfrey stands!", "Are you capable of speaking without flapping your hands about?", "Oh, the pointing again! They're screwdrivers! What are you going to do? Assemble a cabinet at them?", "'Timey' what? 'Timey wimey'?", "Why are you pointing your screwdrivers like that? They're scientific instruments, not water pistols.", "If I grow to be half the man that you are, Clara Oswald, then I shall be happy indeed.", "Are you capable of speaking without flapping your hands about?", "Am I having a midlife crisis? Why are you pointing your screwdrivers like that? They're scientific instruments not water pistols!", "And in that battle there was a man with more blood on his hands than any other. A man who would commit a crime that would silence the universe. And that man was me.", "Why is there never a big red button?", "I don't have a future.", "Well, who are you boys? Oh, of course! Are you his companions?", "Shall we ask for a better quality of door so we can escape?", "Do you have to talk like children? What is it that makes you so ashamed of being a grown-up?", "Then, all things considered...it's time I grew up.", "Go and be the Doctor that I could never be.", "I don't suppose we'll ever know if we actually succeeded. But at worst, we failed doing the right thing, as opposed to succeeding in doing the wrong."  ];
+
+  var words_all = words_first.concat(words_second, words_second, words_third, words_fourth, words_fifth, words_sixth, words_seventh, words_eighth, words_ninth, words_tenth, words_eleventh, words_twelfth, words_war);
 
 //ELSE IF determines which array of words to show the user
   if (chosen_button == "all-doctors") {
@@ -295,6 +302,10 @@ $("#ipsum-form").submit(function() {
    words = words_tenth; 
 } else if (chosen_button == "eleventh-doctor") {
    words = words_eleventh; 
+} else if (chosen_button == "twelfth-doctor") {
+   words = words_twelfth;
+} else if (chosen_button == "war-doctor") {
+   words = words_war;  
 } else {
 words = words_all; }
 

@@ -208,43 +208,51 @@ margin-bottom: 20px;
 
 
 label.doctors[for="second-doctor"] {
-	background-position: center 9%;
+	background-position: center /*  9%; */ 7.5%;
 }
 
 label.doctors[for="third-doctor"] {
-	background-position: center 19.5%;
+	background-position: center /* 19.5%; */ 16%;
 }
 
 label.doctors[for="fourth-doctor"] {
-	background-position: center 29.6%;
+	background-position: center /* 29.6%; */ 24.7%;
 }
 
 label.doctors[for="fifth-doctor"] {
-	background-position: center 40%;
+	background-position: center /*40%; */ 33%;
 }
 
 label.doctors[for="sixth-doctor"] {
-	background-position: center 50%;
+	background-position: center /*50%; */ 42%;
 }
 
 label.doctors[for="seventh-doctor"] {
-	background-position: center 60%;
+	background-position: center /*60%;*/ 50%;
 }
 label.doctors[for="eighth-doctor"] {
-	background-position: center 70%;
+	background-position: center /*70%;*/ 58%;
 }
 
 label.doctors[for="ninth-doctor"] {
-	background-position: center 80%;
+	background-position: center /*80%;*/ 67%;
 }
 
 label.doctors[for="tenth-doctor"] {
-	background-position: center 90%;
+	background-position: center /*90%;*/ 75%;
 }
 
 
 label.doctors[for="eleventh-doctor"] {
-	background-position: center bottom;
+	background-position: center 83%;
+}
+
+label.doctors[for="twelfth-doctor"] {
+	background-position: center 91.7%;
+}
+
+label.doctors[for="war-doctor"] {
+	background-position: center 100.25%;
 }
 
 label.doctors[for="all-doctors"] {
