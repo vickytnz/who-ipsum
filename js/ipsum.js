@@ -14,7 +14,9 @@ $("#ipsum-form").submit(function() {
 
 //Determine which of the check boxes is checked 
   var chosen_button = $("#ipsum-form input[name='choice']:checked").val();
-  
+ga('send', 'event', 'result', 'click', chosen_button ); 
+
+ 
 //Grab the paragraph number the user enters
   var paragraph_number = $("#paragraph_count").val();
 
