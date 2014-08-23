@@ -287,7 +287,7 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "So you've got a room for not being awake in. What's the point? You're just missing the room!",
  "Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.",
  "No. That is not the question. That is not where we start.",
- "It's all right up to the eyebrows. Then it goes haywire."
+ "It's all right up to the eyebrows. Then it goes haywire.",
  "These are attack eyebrows. You could take bottle tops off with these.",
  "I'm Scottish. I can complain about things now. I can really complain about things now."
  "I don't know. But I'd probably blame the English.",
@@ -295,7 +295,7 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "Five foot one and crying - you never stood a chance.",
  "You realise one of us is lying about our basic programming. And I think we both know which one that is.",
  "I've lived for over 2000 years and not all of them have been good.",
- "Please, just see me.",
+ "Please just... just see me.",
  "I don't think that I'm a hugging person now."
  ];
 
