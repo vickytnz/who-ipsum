@@ -271,9 +271,33 @@ ga('send', 'event', 'result', 'click', chosen_button );
 "Look at me. No plans, no backup, no weapons worth a damn. Oh, and something else I don't have: anything to lose. So, if you're sitting up there with your silly little spaceships and your silly little guns and you've any plans on taking the Pandorica tonight; just remember who's standing in your way. Remember every black day I ever stopped you and then, and then, do the smart thing. Let somebody else try first.",
 "No. You're too short and bossy, and your nose is all funny.",
 "Brave heart, Clara.",
-"I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport." 
+"I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport.",
+ "Please tell me I didn't get old. Anything but old. I was young! Oh... is he grey?",
+ "Goodbye, Clara."
   ];
- var words_twelfth = ["Tell me, Am I a good man?", "No sir. Thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "Am I a good man?", "I've made many mistakes... and it's about time that I did something about that.",  "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "Am I a good man?", "I just have one question… do you know how to fly this thing?", "I've made many mistakes... and it's about time that I did something about that.", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "Tell me, am I a good man?",  "I just have one question… do you know how to fly this thing?", "I've made many mistakes... and it's about time that I did something about that.", "All thirteen!", "Kidneys! I have kidneys. And I don't like the colour.", "I just have one question… do you know how to fly this thing?" ];
+ var words_twelfth = ["Tell me, Am I a good man?", 
+ "No sir. Thirteen!", 
+ "Kidneys! I have kidneys. And I don't like the colour.", 
+ "I just have one question… do you know how to fly this thing?", 
+ "I've made many mistakes... and it's about time that I did something about that.",
+ "Shush",
+ "Clara, I'm not your boyfriend. I never said it was your mistake.",
+ "I was being chased by a giant dinosaur, but I think I've managed to give it the slip. Oh, you've got a dinosaur too!",
+ "Well, you're very similar heights. Maybe you should wear labels.",
+ "So you've got a room for not being awake in. What's the point? You're just missing the room!",
+ "Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.",
+ "No. That is not the question. That is not where we start.",
+ "It's all right up to the eyebrows. Then it goes haywire."
+ "These are attack eyebrows. You could take bottle tops off with these.",
+ "I'm Scottish. I can complain about things now. I can really complain about things now."
+ "I don't know. But I'd probably blame the English.",
+ "Well, I would say that that person would be an egomaniac, need, game-player sort of person.",
+ "Five foot one and crying - you never stood a chance.",
+ "You realise one of us is lying about our basic programming. And I think we both know which one that is.",
+ "I've lived for over 2000 years and not all of them have been good.",
+ "Please, just see me.",
+ "I don't think that I'm a hugging person now."
+ ];
 
 var words_war = ["Doctor no more.", "Great men are forged in fire. It is the privilege of lesser men to light the flame. Whatever the cost.", "Oh, for God's sake! Gallfrey stands!", "Are you capable of speaking without flapping your hands about?", "Oh, the pointing again! They're screwdrivers! What are you going to do? Assemble a cabinet at them?", "'Timey' what? 'Timey wimey'?", "Why are you pointing your screwdrivers like that? They're scientific instruments, not water pistols.", "If I grow to be half the man that you are, Clara Oswald, then I shall be happy indeed.", "Are you capable of speaking without flapping your hands about?", "Am I having a midlife crisis? Why are you pointing your screwdrivers like that? They're scientific instruments not water pistols!", "And in that battle there was a man with more blood on his hands than any other. A man who would commit a crime that would silence the universe. And that man was me.", "Why is there never a big red button?", "I don't have a future.", "Well, who are you boys? Oh, of course! Are you his companions?", "Shall we ask for a better quality of door so we can escape?", "Do you have to talk like children? What is it that makes you so ashamed of being a grown-up?", "Then, all things considered...it's time I grew up.", "Go and be the Doctor that I could never be.", "I don't suppose we'll ever know if we actually succeeded. But at worst, we failed doing the right thing, as opposed to succeeding in doing the wrong."  ];
 
