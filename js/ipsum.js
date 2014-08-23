@@ -289,7 +289,7 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "No. That is not the question. That is not where we start.",
  "It's all right up to the eyebrows. Then it goes haywire.",
  "These are attack eyebrows. You could take bottle tops off with these.",
- "I'm Scottish. I can complain about things now. I can really complain about things now."
+ "I'm Scottish. I can complain about things now. I can really complain about things now.",
  "I don't know. But I'd probably blame the English.",
  "Well, I would say that that person would be an egomaniac, need, game-player sort of person.",
  "Five foot one and crying - you never stood a chance.",
