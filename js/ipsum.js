@@ -280,7 +280,7 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "Kidneys! I have kidneys. And I don't like the colour.", 
  "I just have one question… do you know how to fly this thing?", 
  "I've made many mistakes... and it's about time that I did something about that.",
- "Shush",
+ "Shush.",
  "Your hips are fine, you're built like a man!",
  "My carer. She cares so I don't have to.",
  "That's a relief. I hate babysitters.",
