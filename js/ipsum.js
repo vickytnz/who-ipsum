@@ -286,7 +286,7 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "That's a relief. I hate babysitters.",
  "Don't be lasagna.",
  "It’s a bit more exciting when you go the other way.",
- "You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was."
+ "You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was.",
  "Mortuaries and larders. Easiest things to break out of.",
  "Soon, I expect. Or later. One of those.",
  "Underneath it all I think you're probably kind and nice, and very brave. I just wish you weren't a soldier.",
