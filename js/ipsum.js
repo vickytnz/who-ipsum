@@ -275,12 +275,22 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "Please tell me I didn't get old. Anything but old. I was young! Oh... is he grey?",
  "Goodbye, Clara."
   ];
- var words_twelfth = ["Tell me, Am I a good man?", 
+ var words_twelfth = ["Be a pal and tell me, Am I a good man?", 
  "No sir. Thirteen!", 
  "Kidneys! I have kidneys. And I don't like the colour.", 
  "I just have one question… do you know how to fly this thing?", 
  "I've made many mistakes... and it's about time that I did something about that.",
  "Shush",
+ "Your hips are fine, you're built like a man!",
+ "My carer. She cares so I don't have to.",
+ "That's a relief. I hate babysitters.",
+ "Don't be lasagna.",
+ "It’s a bit more exciting when you go the other way.",
+ "You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was."
+ "Mortuaries and larders. Easiest things to break out of.",
+ "Soon, I expect. Or later. One of those.",
+ "Underneath it all I think you're probably kind and nice, and very brave. I just wish you weren't a soldier.",
+ "He was dead already, I'm saving us. Follow me, and run!",
  "Clara, I'm not your boyfriend. I never said it was your mistake.",
  "I was being chased by a giant dinosaur, but I think I've managed to give it the slip. Oh, you've got a dinosaur too!",
  "Well, you're very similar heights. Maybe you should wear labels.",
