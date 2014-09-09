@@ -93,7 +93,9 @@ color: white; /* Non-webkit browsers */
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-} */
+*/ 
+
+} 
 
 h2 {
 font-size: 1em;
