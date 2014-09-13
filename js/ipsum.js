@@ -309,7 +309,9 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "I don't think that I'm a hugging person now.",
  "Shut it, Hoodie!",
  "I am totally against bantering.",
- "I don't need a sword. Because I'm the Doctor ... and this is my spoon."
+ "I don't need a sword. Because I'm the Doctor ... and this is my spoon.",
+ "Once upon a time. The end. Dad skills.",
+ "Why do you have three mirrors? Why don't you just turn your head?"
  ];
 
 var words_war = ["Doctor no more.", "Great men are forged in fire. It is the privilege of lesser men to light the flame. Whatever the cost.", "Oh, for God's sake! Gallfrey stands!", "Are you capable of speaking without flapping your hands about?", "Oh, the pointing again! They're screwdrivers! What are you going to do? Assemble a cabinet at them?", "'Timey' what? 'Timey wimey'?", "Why are you pointing your screwdrivers like that? They're scientific instruments, not water pistols.", "If I grow to be half the man that you are, Clara Oswald, then I shall be happy indeed.", "Are you capable of speaking without flapping your hands about?", "Am I having a midlife crisis? Why are you pointing your screwdrivers like that? They're scientific instruments not water pistols!", "And in that battle there was a man with more blood on his hands than any other. A man who would commit a crime that would silence the universe. And that man was me.", "Why is there never a big red button?", "I don't have a future.", "Well, who are you boys? Oh, of course! Are you his companions?", "Shall we ask for a better quality of door so we can escape?", "Do you have to talk like children? What is it that makes you so ashamed of being a grown-up?", "Then, all things considered...it's time I grew up.", "Go and be the Doctor that I could never be.", "I don't suppose we'll ever know if we actually succeeded. But at worst, we failed doing the right thing, as opposed to succeeding in doing the wrong."  ];
