@@ -317,8 +317,8 @@ ga('send', 'event', 'result', 'click', chosen_button );
  "My personal plan is that a thing will probably happen quite soon.",
  "Come on, Team Not Dead.",
  "When this is all over, you can find a shoulder to cry on. But for now, you need me.",
- "Big scarf, bow tie, big embarrassing.", 
- "What do you think of the new look? I was hoping for minimalism, but I think I came up with magician.",
+ "Big scarf, bow tie, big embarrassing.",
+ "What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'.",
  "Shut up! Just shut up, shut up, shut up, shuttity up up up!"
  ];
 
